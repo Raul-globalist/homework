@@ -1,0 +1,20 @@
+ame="mgrname"
+
+is<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+</script>
+</head>
+<body>
+
+Введите свое имя: <input type="text" id="fname" onblur="myFunction()">
+
+<p>Когда вы покидаете поле ввода, запускается функция, которая преобразует вводимый текст в верхний регистр.</p>
+
+</body>
+</html>
